@@ -25,7 +25,7 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
-nst [moo,neigh,baa,oink,cluck] =  farmAnimals.split(' ');
+const [moo,neigh,baa,oink,cluck] =  farmAnimals.split(' ');
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 const [bessie, , dolly, babe,little] = farmAnimals.split(" ")
